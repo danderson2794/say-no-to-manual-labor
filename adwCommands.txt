@@ -1,0 +1,144 @@
+NEWFILE ADW_ANALYTICS_POSITION
+tax_book_val		Generic book data fields will be added for use 
+tax_book_price		Generic book data fields will be added for use 
+ifrs_book_price		Field is not populated. Generic book data fields will be added for use 
+ifrs_book_val		Field is not populated. Generic book data fields will be added for use 
+corp_capstac1		Field is not populated. Multiple sectors available in the adw _pos_analytics_v2 view: 10 generic sectors, Barclays Four Pillars, and GICs 
+corp_capstac2		Field is not populated. Multiple sectors available in the adw _pos_analytics_v2 view: 10 generic sectors, Barclays Four Pillars, and GICs 
+Debtsenior		Field is not populated. Multiple sectors available in the adw _pos_analytics_v2 view: 10 generic sectors, Barclays Four Pillars, and GICs 
+deriv_sector		Field is not populated. Multiple sectors available in the adw _pos_analytics_v2 view: 10 generic sectors, Barclays Four Pillars, and GICs 
+region_lvl1		Field is not populated. Country information is available in the adw _pos_analytics_v2 view 
+region_lvl2		Field is not populated. Country information is available in adw _pos_analytics_v2 view 
+snp_bl_ind		Field is not populated. Multiple sectors available in the adw _pos_analytics_v2 view: 10 generic sectors, Barclays Four Pillars, and GICs 
+stat_book_price		Field is not populated. Generic book data fields will be added for use 
+stat_book_val		Field is not populated. Generic book data fields will be added for use 
+struct_products1		Field is not populated. Multiple sectors available in the adw _pos_analytics_v2 view: 10 generic sectors, Barclays Four Pillars, and GICs 
+rating_effective_issuer		Field is not populated. Internal issuer rating and score will be added for use
+gaap_book_val		Field is not populated - same as gaap_book_value field
+dol_val_1bp_chg		Same as existing dv01 field 
+dxs_treasury		DxS_Govt available in the adw _pos_analytics_v2 view 
+equity_dollar_exposure 		Duplicate field
+
+NEWFILE ADW_SUMMARY_ANALYTICS
+STAT_BV		Generic book data fields will be added for use 
+STAT_BK_YLD		Generic book data fields will be added for use
+PORT_VAR		Unscaled
+TE		Unscaled
+BENCH_VAR		Unscaled
+PORT_NAV		Precision changed to 2 decimals 
+PORT_OAC		Precision increased to 5 decimal places 
+BENCH_OAC		Precision increased to 5 decimal places 
+ACTIVE_OAC		Precision increased to 5 decimal places 
+PORT_OAD		Precision increased to 5 decimal places 
+BENCH_OAD		Precision increased to 5 decimal places 
+ACTIVE_OAD		Precision increased to 5 decimal places 
+PORT_PREPAY_DUR		Precision increased to 5 decimal places 
+BENCH_PREPAY_DUR		Precision increased to 5 decimal places 
+ACTIVE_PREPAY_DUR		Precision increased to 5 decimal places 
+PORT_SPREAD_DUR		Precision increased to 5 decimal places 
+BENCH_SPREAD_DUR		Precision increased to 5 decimal places 
+ACTIVE_SPREAD_DUR		Precision increased to 5 decimal places 
+PORT_WAL_TO_WORST		Precision increased to 5 decimal places 
+BENCH_WAL_TO_WORST		Precision increased to 5 decimal places 
+ACTIVE_WAL_TO_WORST		Precision increased to 5 decimal places 
+PORT_YIELD_TO_MATURITY		Precision increased to 5 decimal places 
+BENCH_YIELD_TO_MATURITY		Precision increased to 5 decimal places 
+ACTIVE_YIELD_TO_MATURITY		Precision increased to 5 decimal places 
+PORT_YIELD_TO_WORST		Precision increased to 5 decimal places 
+BENCH_YIELD_TO_WORST		Precision increased to 5 decimal places 
+ACTIVE_YIELD_TO_WORST		Precision increased to 5 decimal places
+
+
+NEWFILE ADW_ANALYTICS_POSITION
+book_value		Precision increased to 2 decimal places. Unscaled (no longer in thousands) 
+book_value2		Precision increased to 2 decimal places. Unscaled (no longer in thousands) 
+delta_adj_notional		Precision increased to 2 decimal places. Unscaled (no longer in thousands) 
+notional_val		Removed commas. Unscaled (no longer in thousands). Precision increased to 2 decimal places. 
+duration_dollars		Unscaled (no longer in thousands) 
+notional_m		Unscaled (no longer in thousands)
+option_vega_dollars		Removed commas 
+clean_local_mkt_value		Removed commas 
+isin		Field length increased to 12 characters
+next_call_price		Removed rounding 
+pay_leg_mkt_val_t		Precision changed to 2 decimal places 
+rec_leg_mkt_val_t		Precision changed to 2 decimal places 
+option_gamma_dollars		Precision increased to 2 decimal places 
+option_theta_dollars		Precision increased to 2 decimal places 
+ccy_UGL_base_no_ai		Precision increased to 2 decimal places 
+option_rho_dollars		Precision increased to 2 decimal places and commas removed 
+dlq3m		Precision increased to 5 decimal places 
+dlq6m		Precision increased to 5 decimal places 
+dlq3y		Precision increased to 5 decimal places 
+thirty_sixty_roll		Precision increased to 5 decimal places 
+abs_speed		Precision increased to 5 decimal places 
+acc_int_factor		Precision increased to 5 decimal places 
+option_kappa		Precision increased to 5 decimal places 
+book_yield2		Precision increased to 5 decimal places 
+cdr_1m		Precision increased to 5 decimal places 
+cdr_1y		Precision increased to 5 decimal places 
+cdr_3m		Precision increased to 5 decimal places 
+cdr_6m		Precision increased to 5 decimal places 
+cur_thirty_roll		Precision increased to 5 decimal places 
+cur_delq_roll		Precision increased to 5 decimal places 
+dlq_curr_roll		Precision increased to 5 decimal places 
+dlq_foreclosure_roll 		Precision increased to 5 decimal places 
+implied_vol		Precision increased to 5 decimal places 
+infl_krd_1y		Precision increased to 5 decimal places 
+infl_krd_10y		Precision increased to 5 decimal places 
+infl_krd_15y		Precision increased to 5 decimal places 
+infl_krd_2y		Precision increased to 5 decimal places 
+infl_krd_20y		Precision increased to 5 decimal places 
+infl_krd_25y		Precision increased to 5 decimal places 
+infl_krd_3m		Precision increased to 5 decimal places 
+infl_krd_3y		Precision increased to 5 decimal places 
+infl_krd_30y		Precision increased to 5 decimal places 
+infl_krd_40y		Precision increased to 5 decimal places 
+infl_krd_5y		Precision increased to 5 decimal places 
+infl_krd_50y		Precision increased to 5 decimal places 
+infl_krd_7y		Precision increased to 5 decimal places 
+cdrlt		Precision increased to 5 decimal places
+dlqlt		Precision increased to 5 decimal places 
+sevlt		Precision increased to 5 decimal places 
+local_acc_int		Precision increased to 5 decimal places 
+dlq1m		Precision increased to 5 decimal places 
+dlq1y		Precision increased to 5 decimal places 
+option_delta		Precision increased to 5 decimal places 
+option_gamma		Precision increased to 5 decimal places 
+option_rho		Precision increased to 5 decimal places 
+option_theta		Precision increased to 5 decimal places 
+option_vanna		Precision increased to 5 decimal places 
+option_vega		Precision increased to 5 decimal places 
+pay_leg_acc_int		Precision increased to 5 decimal places 
+swap_pay_oac		Precision increased to 5 decimal places 
+swap_pay_oad		Precision increased to 5 decimal places 
+pct_delinq		Precision increased to 5 decimal places 
+pct_harp		Precision increased to 5 decimal places 
+intex_pct_mba_delinq		Precision increased to 5 decimal places 
+rec_leg_acc_int		Precision increased to 5 decimal places 
+swap_rec_oac		Precision increased to 5 decimal places 
+swap_rec_oad		Precision increased to 5 decimal places 
+sev1m		Precision increased to 5 decimal places 
+sev1y		Precision increased to 5 decimal places 
+sev3m		Precision increased to 5 decimal places 
+sev3y		Precision increased to 5 decimal places 
+sev6m		Precision increased to 5 decimal places 
+prin_loss		Precision increased to 5 decimal places 
+acc_int		Precision increased to 5 decimal places 
+yield_to_mat		Precision increased to 5 decimal places 
+cpr1m		Precision increased to 5 decimal places 
+cpr1y		Precision increased to 5 decimal places 
+cpr3m		Precision increased to 5 decimal places 
+cpr3y		Precision increased to 5 decimal places 
+cpr6m		Precision increased to 5 decimal places 
+cprlt		Precision increased to 5 decimal places 
+book_yield		Precision increased to 5 decimal places 
+years_to_bucket_mat		Precision increased to 5 decimal places 
+pct_gain_loss		Precision increased to 5 decimal places 
+wal		Precision increased to 5 decimal places 
+yield_par_call		Precision increased to 5 decimal places 
+yield_first_par_call		Precision increased to 5 decimal places 
+pay_notional		Removed commas and rounding 
+rec_notional		Removed commas and rounding 
+oas 		Removed decimals
+
+

@@ -1,0 +1,3 @@
+QueryChange		Query Name		Where Change Came From		Description of Change
+
+PIMCO			book_value		adw_summary_analytics		Generic Book Data Fields Will be Added for Use
